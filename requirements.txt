@@ -1,0 +1,22 @@
+# Configuration and environment
+pyyaml==6.0.3
+python-dotenv==1.1.1
+
+# Local encryption and persistence
+cryptography==46.0.3
+
+# Model training and fine-tuning
+# Install the PyTorch build matching the target CPU/CUDA platform when needed.
+torch==2.15.0
+transformers==5.23.0
+datasets==4.5.0
+peft==0.22.0
+bitsandbytes==0.50.2
+trl==0.26.2
+accelerate==1.12.0
+
+# Remote executor API
+fastapi==0.123.0
+uvicorn==0.38.0
+pydantic==2.12.4
+requests==2.32.5
