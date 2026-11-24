@@ -1,5 +1,5 @@
 # Local databases and secrets
-database/
+/database/
 *.db
 *.sqlite
 *.key
